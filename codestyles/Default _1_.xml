@@ -1,4 +1,4 @@
-<code_scheme name="Senth">
+<code_scheme name="Default (1)">
   <option name="FIELD_NAME_PREFIX" value="m" />
   <option name="STATIC_FIELD_NAME_PREFIX" value="m" />
   <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
@@ -34,24 +34,12 @@
   <option name="STATIC_METHODS_ORDER_WEIGHT" value="2" />
   <option name="METHODS_ORDER_WEIGHT" value="3" />
   <option name="RIGHT_MARGIN" value="100" />
-  <option name="JD_ALIGN_PARAM_COMMENTS" value="false" />
-  <option name="JD_ADD_BLANK_AFTER_DESCRIPTION" value="false" />
-  <option name="JD_DO_NOT_WRAP_ONE_LINE_COMMENTS" value="true" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
-  <option name="WRAP_COMMENTS" value="true" />
-  <MarkdownNavigatorCodeStyleSettings>
-    <option name="RIGHT_MARGIN" value="72" />
-  </MarkdownNavigatorCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="JAVA">
     <option name="DO_NOT_INDENT_TOP_LEVEL_CLASS_MEMBERS" value="true" />
-    <option name="INDENT_CASE_FROM_SWITCH" value="false" />
-    <option name="IF_BRACE_FORCE" value="3" />
-    <option name="DOWHILE_BRACE_FORCE" value="3" />
-    <option name="WHILE_BRACE_FORCE" value="3" />
-    <option name="FOR_BRACE_FORCE" value="3" />
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
       <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
