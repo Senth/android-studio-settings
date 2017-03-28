@@ -67,4 +67,19 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="fieldReflect" value="mf$fieldName$ = $className$.class.getDeclaredField(&quot;m$fieldName$&quot;);&#10;mf$fieldName$.setAccessible(true);" description="Create a field reflection" toReformat="false" toShortenFQNames="true">
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="methodReflect" value="mm$fieldName$ = $className$.class.getDeclaredMethod(&quot;$methodName$&quot;);&#10;mm$fieldName$.setAccessible(true);" description="Create a method reflection" toReformat="false" toShortenFQNames="true">
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="methodName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
