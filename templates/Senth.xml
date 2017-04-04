@@ -82,4 +82,10 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="Sub" value="@SuppressWarnings(&quot;unused&quot;)&#10;@Subscribe&#10;public void on$EventName$($EventName$Event event) {&#10;    $END$&#10;}" description="Subscribe to an event" toReformat="false" toShortenFQNames="true">
+    <variable name="EventName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
