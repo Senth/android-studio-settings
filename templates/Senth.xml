@@ -2,9 +2,9 @@
   <template name="rstring" value="resources.getString(R.string.$id$)" description="Get string from resource variable" toReformat="true" toShortenFQNames="true">
     <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
       <option name="COMPLETION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
   <template name="appstring" value="AppActivity.getActivity().getResources().getString(R.string.$id$)" description="Get string from AppActivity" toReformat="true" toShortenFQNames="true">
@@ -21,8 +21,8 @@
   </template>
   <template name="getResources" value="Resources resources = AppActivity.getActivity().getResources();" description="Create local resource variable" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
   <template name="singleton" value="private static $className$ mInstance = null;&#10;&#10;/**&#10; * Enforces singleton pattern&#10; */&#10;private $className$() {&#10;}&#10;&#10;/**&#10; * Get singleton instance&#10; * @return get instance&#10; */&#10;public static $className$ getInstance() {&#10;    if (mInstance == null) {&#10;        mInstance = new $className$();&#10;    }&#10;    return mInstance;&#10;}" description="Make the class a singleton" toReformat="false" toShortenFQNames="true">
@@ -51,9 +51,9 @@
   <template name="rcolor" value="ColorHelper.getColor(resources, R.color.$id$, null)$END$" description="Get a color from the application resource" toReformat="false" toShortenFQNames="true">
     <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logger" value="private static final Logger mLogger = Logger.getLogger($className$.class.getName());" description="Create a logger" toReformat="false" toShortenFQNames="true">
