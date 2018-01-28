@@ -150,6 +150,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift ctrl f12" />
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
   <action id="Images.Thumbnails.EnterAction" />
   <action id="Macro.Formatted Save">
     <keyboard-shortcut first-keystroke="ctrl s" />
