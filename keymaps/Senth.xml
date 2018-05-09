@@ -41,9 +41,6 @@
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="shift ctrl g" second-keystroke="shift ctrl c" />
   </action>
-  <action id="CheckinProject">
-    <keyboard-shortcut first-keystroke="shift ctrl g" second-keystroke="shift ctrl c" />
-  </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -125,9 +122,6 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="shift ctrl g" second-keystroke="shift ctrl b" />
   </action>
-  <action id="Git.Fetch">
-    <keyboard-shortcut first-keystroke="shift ctrl g" second-keystroke="shift ctrl f" />
-  </action>
   <action id="Git.Merge">
     <keyboard-shortcut first-keystroke="shift ctrl g" second-keystroke="shift ctrl m" />
   </action>
@@ -153,23 +147,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
-  <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="shift ctrl f12" />
-    <keyboard-shortcut first-keystroke="shift ctrl enter" />
-  </action>
   <action id="Images.Thumbnails.EnterAction" />
   <action id="Macro.Formatted Save">
     <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
-  <action id="MakeModule">
-    <keyboard-shortcut first-keystroke="shift ctrl f9" />
-    <keyboard-shortcut first-keystroke="shift ctrl f11" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt o" />
-  </action>
-  <action id="Move">
-    <keyboard-shortcut first-keystroke="shift alt m" />
-  </action>
+  <action id="Move" />
   <action id="NewClass">
     <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="shift ctrl c" />
     <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="shift meta c" />
@@ -191,21 +174,20 @@
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="shift alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="shift alt left" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="shift alt right" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
-  <action id="ToggleBookmark" />
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="Unwrap" />
   <action id="UsageView.Remove" />
