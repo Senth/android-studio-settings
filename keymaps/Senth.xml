@@ -158,6 +158,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
   <action id="Images.Thumbnails.EnterAction" />
+  <action id="Kotlin.NewFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="shift ctrl k" />
+  </action>
   <action id="Macro.Formatted Save">
     <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta s" />
