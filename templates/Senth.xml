@@ -5,6 +5,8 @@
       <option name="COMPLETION" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="appstring" value="AppActivity.getActivity().getResources().getString(R.string.$id$)" description="Get string from AppActivity" toReformat="true" toShortenFQNames="true">

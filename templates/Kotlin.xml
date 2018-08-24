@@ -1,0 +1,8 @@
+<templateSet group="Kotlin">
+  <template name="getResources" value="val resources: Resources = AppActivity.getActivity()!!.resources;&#10;" description="Get Android R resources" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
