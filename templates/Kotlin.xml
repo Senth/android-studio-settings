@@ -1,8 +1,14 @@
 <templateSet group="Kotlin">
-  <template name="getResources" value="val resources: Resources = AppActivity.getActivity()!!.resources;&#10;" description="Get Android R resources" toReformat="false" toShortenFQNames="true">
+  <template name="getResources" value="val resources: Resources = AppActivity.getActivity()!!.resources&#10;" description="Get Android R resources" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_EXPRESSION" value="true" />
       <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="appstring" value="AppActivity.getActivity()!!.resources!!.getString(R.string.$id$)" description="Get a string from the xml file" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
     </context>
   </template>
 </templateSet>
