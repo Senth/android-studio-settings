@@ -11,10 +11,10 @@
       <option name="KOTLIN_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="tag" value="private val TAG = $className$::class.simpleName" description="Create a TAG for debugging" toReformat="false" toShortenFQNames="true">
-    <variable name="className" expression="kotlinClassName()" defaultValue="" alwaysStopAt="false" />
+  <template name="tag" value="private val TAG = $className$::class.simpleName ?: &quot;INVALID&quot;" description="Create a TAG for debugging" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="logd" value="android.util.Log.d(TAG, &quot;$functionName$() — $content$&quot;)" description="Log debug" toReformat="false" toShortenFQNames="true">
