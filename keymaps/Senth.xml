@@ -38,12 +38,14 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="CIDR.Lang.ObjC.IntroduceProperty" />
   <action id="ChangesView.AddUnversioned">
     <keyboard-shortcut first-keystroke="shift ctrl g" second-keystroke="shift ctrl a" />
   </action>
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="shift ctrl g" second-keystroke="shift ctrl c" />
   </action>
+  <action id="ChangesView.UnshelveSilently" />
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="shift ctrl g" second-keystroke="shift ctrl c" />
   </action>
@@ -151,6 +153,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl t" />
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
+  <action id="GotoCustomRegion" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f3" />
     <mouse-shortcut keystroke="control button1" />
@@ -167,12 +170,16 @@
   </action>
   <action id="Images.Thumbnails.EnterAction" />
   <action id="IntroduceConstant" />
+  <action id="IntroduceParameter" />
   <action id="Kotlin.NewFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="shift ctrl n" />
   </action>
   <action id="Macro.Formatted Save">
     <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="Macro.Save-all -&gt; Reformat code">
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="MakeModule">
     <keyboard-shortcut first-keystroke="shift ctrl f9" />
@@ -192,6 +199,9 @@
   </action>
   <action id="PopupHector" />
   <action id="Refactorings.QuickListPopupAction" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
   <action id="Rerun" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl f11" />
@@ -200,7 +210,6 @@
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
     <keyboard-shortcut first-keystroke="shift meta s" />
-    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="SurroundWith" />
   <action id="SwitchApply">
