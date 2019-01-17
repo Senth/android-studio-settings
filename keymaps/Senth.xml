@@ -59,10 +59,12 @@
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="Console.Execute" />
+  <action id="CopyReference" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="f11" />
     <keyboard-shortcut first-keystroke="meta f11" />
   </action>
+  <action id="DumpLookupElementWeights" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta c" />
   </action>
@@ -108,10 +110,12 @@
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
+  <action id="EditorPasteSimple" />
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="ExtractFunctionToScope" />
   <action id="ExtractMethod" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl f3" />
@@ -162,6 +166,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
   <action id="Images.Thumbnails.EnterAction" />
+  <action id="IntroduceConstant" />
   <action id="Kotlin.NewFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="shift ctrl n" />
   </action>
@@ -185,6 +190,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl v" />
     <keyboard-shortcut first-keystroke="shift meta v" />
   </action>
+  <action id="PopupHector" />
+  <action id="Refactorings.QuickListPopupAction" />
   <action id="Rerun" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl f11" />
@@ -195,9 +202,7 @@
     <keyboard-shortcut first-keystroke="shift meta s" />
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
-  <action id="SurroundWith">
-    <keyboard-shortcut first-keystroke="ctrl alt t" />
-  </action>
+  <action id="SurroundWith" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
