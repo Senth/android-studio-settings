@@ -230,10 +230,17 @@
   <action id="ToggleBookmark" />
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="Unwrap" />
+  <action id="UpdateRunningApplication" />
   <action id="UsageView.Remove" />
   <action id="UsageView.Rerun" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl g" second-keystroke="shift ctrl s" />
+  </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
   <action id="com.vladsch.idea.multimarkdown.editor.actions.styling.ListUnIndentAction" />
   <action id="com.vladsch.idea.multimarkdown.editor.actions.styling.ToggleCodeSpanAction" />
